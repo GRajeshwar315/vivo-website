@@ -1,0 +1,256 @@
+.body{
+  margin: 0;
+  background-color:rgb(141, 138, 138);
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    font-family: sans-serif;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    font-size: 1.8rem;
+}
+.navbar a:hover{
+    color: rgb(85, 128, 246);
+}
+.search-bar:hover{
+    color: rgb(85, 128, 246);
+}
+.profile:hover{
+    color: rgb(85, 128, 246);
+}
+.phone{
+    width: 100%;
+}
+.vivophone{
+    background-image: url("https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1732184546888/25fa963dcb10a6813267c79942802db3.jpg");
+    min-height: 79vh;
+    width: 90%;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 5% 5.5%;
+    border-radius: 30px;
+}
+.contant{
+    width: 50%;
+    color: white;
+    text-align: center;
+    min-height: 50vh;
+}
+.contant h1{
+    font-size: 2.5rem;
+    margin-bottom: -25px;
+}
+.radius{
+    border: 40px;
+    border-radius: 25px solid white;
+}
+.contant p{
+    font-size: 1.8rem;
+}
+.contant .buy{
+    font-size:1.4rem;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.phone1{
+    background-image: url("https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1726215748658/442298ce19c626f1b3437e24ba81de1b.jpg");
+    min-height: 79vh;
+    width: 90%;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 5% 5.5%;
+    border-radius: 30px;
+}
+.phonecontant{
+    width: 50%;
+    color: black;
+    text-align: center;
+    min-height: 50vh;
+}
+.phonecontant h1{
+    font-size: 2.5rem;
+
+}
+.phonecontant h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-right: 5px;
+
+}
+
+.phonecontant .buy1{
+    font-size:1.2rem;
+    margin-top: 70px;
+    margin-right: 120px;
+}
+.buy1 .gicon{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+}
+.head h1{
+    margin-top: 10%;
+    margin-left: 6%;
+    margin-bottom: 5%;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card img {
+   width: 100%;
+   height: auto;
+}
+
+.card p {
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.footer {
+    margin-top: 40px;
+    background-color: #242933;
+    padding: 40px 60px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    color: white;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    margin-right: 2%;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul li a {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    color:rgb(183, 181, 181); 
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+    color:rgb(85, 128, 246); ;
+  }
+  .contact-section h3{
+    font-size: 1.3rem;
+    color:white;
+    margin-bottom: 30px;
+  }
+  .contact-section{
+    color: rgb(153, 151, 151);
+    margin-left:14%;
+  }
+  .contact-section p{
+    font-size: 1.3rem;
+  }
+  .contact-section .num{
+    font-size: 2rem;
+  }
+  .social-icons a{
+    font-size: 1.9rem;
+    color: rgb(153, 152, 152);
+    margin: 4px;
+  }
+  .social-icons h6{
+    font-size: 1rem;
+  }
+  
+  .footer-bottom {
+    margin-top: 50px;
+    margin-left: 5%;
+    font-size: 0.9em;
+    color: rgb(205, 204, 204);
+  }
+.contact-section{
+    font-size: 1.2rem;
+    margin-left: 13%;
+    color: rgb(178, 176, 176);
+}
+.contact-section .chat{
+    color: rgb(184, 181, 181);
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    margin-top: 15px;
+ }
+ .number{
+  font-size: 2rem;
+  color: white;
+ }
+.contact-section .phone{
+    margin-bottom: 20px;
+}
+.contact-section .email{
+    margin-bottom: 40px;
+}
+.icons a{
+    color: rgb(158, 157, 157);
+    font-size: 2rem;
+    border-radius: 24px;
+    margin-left: 15px;
+}
+.icons a:hover{
+  color: rgb(41, 64, 238);
+}
+.horizontal-line {
+  margin-top: 30px;
+  border-top: 1px solid #999696; 
+  width: 95%; 
+  max-width: 1250px;
+}
+.footer-bottom {
+  margin-top: 10px;
+  color: rgb(151, 149, 149);
+}
